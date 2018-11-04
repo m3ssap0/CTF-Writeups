@@ -6,8 +6,8 @@
 ## Challenge
 
 > Look, flags everywhere!
-
-![multiple-flags.png][multiple-flags.png]
+>
+> ![multiple-flags.png](multiple-flags.png)
 
 ## Solution
 
