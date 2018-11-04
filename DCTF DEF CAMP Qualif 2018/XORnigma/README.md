@@ -21,7 +21,7 @@ The ciphertext begins with `00000000`, so `flag` and `flag_key` have the same fi
 
 So the script can be changed as the following:
 
-```
+```python
 import itertools
 def xor_two_str(s, key):
 	key = key * (len(s) / len(key) + 1)
@@ -35,6 +35,7 @@ print flag
 ```
 
 And it will print the flag:
+
 ```
 DCTF{fcc34eaae8bd3614dd30324e932770c3ed139cc2c3250c5b277cb14ea33f77a0}
 ```

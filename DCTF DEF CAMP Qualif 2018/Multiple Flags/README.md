@@ -6,11 +6,11 @@
 ## Challenge
 
 > Look, flags everywhere!
-> ![multiple-flags.png][multiple-flags.png]
+![multiple-flags.png][multiple-flags.png]
 
 ## Solution
 
-The given image contains [flag semaphore](https://en.wikipedia.org/wiki/Flag_semaphore) chatacters.
+The given image contains [flag semaphore](https://en.wikipedia.org/wiki/Flag_semaphore) characters.
 
 They can be decoded considering that:
 * `J` could mean "letters from now on" (for the sake of simplicity the `"` char will be used below);

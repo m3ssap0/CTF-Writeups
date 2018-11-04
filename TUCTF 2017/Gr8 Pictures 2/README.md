@@ -32,7 +32,7 @@ original_message = byte_original_message XOR byte_hidden_message
 
 The following Java program can be used.
 
-```
+```java
 package com.tuctf.misc;
 
 public class Misc3 {

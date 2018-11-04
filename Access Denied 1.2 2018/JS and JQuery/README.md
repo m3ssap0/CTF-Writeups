@@ -6,7 +6,9 @@
 ## Challenge
 
 > JS was very happy with his abilities. But JQuery gave him superpower.
+>
 > And we all know - **With great power comes great responsibility.**
+>
 > Challenge running at : [http://18.217.96.77:8080/](http://18.217.96.77:8080/)
 
 ## Solution

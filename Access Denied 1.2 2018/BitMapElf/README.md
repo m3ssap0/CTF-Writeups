@@ -6,14 +6,16 @@
 ## Challenge
 
 > A bitmap defines a display space and the color for each pixel or "bit" in the display space.
+>
 > Can you get the flag out using bit mapping ?
+>
 > Challenge running at : [https://bitmapelf.herokuapp.com](https://bitmapelf.herokuapp.com)
 
 ## Solution
 
 The referred website contains [a page with an HTML table](BitMapElf.html). Each table row contains cells with `bgcolor` attributes set to hexadecimal numbers. 
 
-```
+```html
 <td bgcolor="#7f454c" height="25" width="25"></td>
 <td bgcolor="#460201" height="25" width="25"></td>
 <td bgcolor="#010000" height="25" width="25"></td>

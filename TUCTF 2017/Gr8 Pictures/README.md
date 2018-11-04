@@ -35,7 +35,7 @@ Warning: the last byte is XOR-ed with string termination char!
 
 The following Java program can be used.
 
-```
+```java
 package com.tuctf.misc;
 
 public class Misc2 {

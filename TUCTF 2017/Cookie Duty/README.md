@@ -6,6 +6,7 @@
 ## Challenge
 
 > You have been summoned for Jury Duty. Try out the new web form with a state-of-the-art authentication system.
+>
 > [http://cookieduty.tuctf.com](http://cookieduty.tuctf.com)
 
 ## Solution

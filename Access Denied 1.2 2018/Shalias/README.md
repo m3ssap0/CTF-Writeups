@@ -6,9 +6,13 @@
 ## Challenge
 
 > I've written a the flag into flag.txt. However, someone under the alias of donfus messed the terminal up. Can you help me find the flag?
+>
 > Challenge running at :
+>
 > ssh user@139.59.37.86 -p 4849
+>
 > password is : accessd
+>
 > (You need a SSH client)
 
 ## Solution

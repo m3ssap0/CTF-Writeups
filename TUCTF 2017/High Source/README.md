@@ -6,6 +6,7 @@
 ## Challenge
 
 > This guy is getting wayyy too full of himself. He's called himself a master programmer, and he believes he has written a secure login function. Knock him off his high source.
+>
 > [http://highsource.tuctf.com/](http://highsource.tuctf.com/)
 
 ## Solution

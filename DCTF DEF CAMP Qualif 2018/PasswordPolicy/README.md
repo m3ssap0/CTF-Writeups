@@ -6,13 +6,14 @@
 ## Challenge
 
 > Can you guess this extreme password?
+>
 > Target: [https://password-policy.dctfq18.def.camp/](https://password-policy.dctfq18.def.camp/)
 
 ## Solution
 
 The target website contains a login form with a JavaScript check used to prevent the submission of long passwords.
 
-```
+```javascript
     $('form').submit(function(e) {
       if($('input[name="pass"]').val().length < 1337) {
           alert('Minimum length for password is 1337 characters.');
