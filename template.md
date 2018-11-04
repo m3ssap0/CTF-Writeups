@@ -11,3 +11,7 @@
 ## Solution
 
 The solution.
+
+```
+The flag.
+```
