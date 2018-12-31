@@ -19,7 +19,7 @@ The program takes two inputs: a poem and the author's name. Based on the words o
 
 Analyzing the binary, you can discover that the flag is contained into a text file printed into `reward` function located at `0x0000000000400767`. The label into the `main` where the flow will jump in case of reward will be at `0x00000000004009f2`, so this could be a good target address where to jump via buffer overflow.
 
-The score is calculated with `rate_poem` function located at `0x00000000004007B7`; this function contains a call to `strcpy`, which is vulnerable to buffer overflow. During normal behavior, the `rate_poem` method will return to `0x00000000004009d8` address in `main`.
+The score is calculated with `rate_poem` function located at `0x00000000004007b7`; this function contains a call to `strcpy`, which is vulnerable to buffer overflow. During normal behavior, the `rate_poem` method will return to `0x00000000004009d8` address in `main`.
 
 The final exploit to overwrite that address will be the following.
 
