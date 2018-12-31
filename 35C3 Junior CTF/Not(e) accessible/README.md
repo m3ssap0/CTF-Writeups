@@ -22,6 +22,7 @@ If you try to submit a note (with spaces) an error will appear.
 If the text follows the shown regex, the note is inserted showing some info.
 
 > Your note ID is 5779715767432985082
+>
 > Your note PW is 44a0cbcab0cdb0326be3b76b21bb25c9
 >
 > And the link to the note:
