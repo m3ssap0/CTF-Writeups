@@ -40,7 +40,7 @@ Accept-Language: ....//....//....//....//flag
 
 The returned "image" will be the following.
 
-```
+```HTML
 <img src="data:image/jpeg;base64,MzVjM190aGlzX2ZsYWdfaXNfdGhlX2JlNXRfZmw0Zwo=">
 ```
 
