@@ -35,9 +35,10 @@ The `if` statement *#2* can be bypassed using the same value for `pass` URL para
 The `if` statement *#3* contains the secret flag into a MD5 calculation, so it could seem hard to bypass, but:
 * the MD5 hash can only have hex values from `0` to `f`;
 * only the first char of two strings is considered in the comparison.
+
 So the value of `$_[0]` can be between `0` and `f` only.
 
-Trying single chars, from `0` to `f`, for the input of `pass` and User-Agent header will reveal that `b` is the char that returns the flag.
+Trying single chars, from `0` to `f`, for the input of `pass` and User-Agent header, will reveal that `b` is the char that returns the flag.
 
 ```
 35c3_password_saltf1sh_30_seconds_max
