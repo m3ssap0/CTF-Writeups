@@ -23,7 +23,7 @@ If the text follows the shown regex, the note is inserted showing some info.
 
 > Your note ID is 5779715767432985082
 > Your note PW is 44a0cbcab0cdb0326be3b76b21bb25c9
-
+>
 > And the link to the note:
 > http://35.207.120.163/view.php?id=5779715767432985082&pw=44a0cbcab0cdb0326be3b76b21bb25c9
 
@@ -65,7 +65,7 @@ With this parameter, the first two `if` statements will be true, because the res
 
 That result is a valid password file, the one created previously during the note submission.
 
-The file_get_contents instruction will perform a HTTP GET call to the following backend endpoint.
+The `file_get_contents` instruction will perform a HTTP GET call to the following backend endpoint.
 
 ```
 $BACKEND/get/5779715767432985082/../../admin
