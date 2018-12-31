@@ -11,7 +11,33 @@
 
 ## Solution
 
-The challenge involves a simple *buffer overflow* vulnerability. You will have two files: a binary and a C++ source code. The objective is to change the return address of `getenv` function in order to hijack the flow to `spawn_shell` function.
+The challenge involves a simple *buffer overflow* vulnerability. You will have two files: a binary and a C++ source code. 
+
+```C++
+// compile with -no-pie -fno-stack-protector
+
+#include <iostream>
+#include <unistd.h>
+#include <stdlib.h>
+
+using namespace std;
+
+void spawn_shell() {
+    char* args[] = {(char*)"/bin/bash", NULL};
+    execve("/bin/bash", args, NULL);
+}
+
+int main() {
+    char buf[1024];
+
+    cout << "Which environment variable do you want to read? ";
+    cin >> buf;
+
+    cout << buf << "=" << getenv(buf) << endl;
+}
+```
+
+The objective is to change the return address of `getenv` function in order to hijack the flow to `spawn_shell` function.
 
 ```
 gdb -q ./1996
