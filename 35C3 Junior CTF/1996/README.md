@@ -11,7 +11,7 @@
 
 ## Solution
 
-The challenge involves a simple *buffer overflow* vulnerability. The objective is to change the return address of `getenv` function in order to hijack the flow to `spawn_shell` function.
+The challenge involves a simple *buffer overflow* vulnerability. You will have two files: a binary and a C++ source code. The objective is to change the return address of `getenv` function in order to hijack the flow to `spawn_shell` function.
 
 ```
 gdb -q ./1996
