@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – flags
 
 * **Category:** Web
-* **Points:** variable
+* **Points:** 37 (variable)
 
 ## Challenge
 

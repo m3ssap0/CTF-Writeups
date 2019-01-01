@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – /dev/null
 
 * **Category:** Misc
-* **Points:** variable
+* **Points:** 116 (variable)
 
 ## Challenge
 

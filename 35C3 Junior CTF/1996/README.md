@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – 1996
 
 * **Category:** Pwn
-* **Points:** variable
+* **Points:** 42 (variable)
 
 ## Challenge
 

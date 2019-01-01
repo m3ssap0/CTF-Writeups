@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – Number Error
 
 * **Category:** Misc
-* **Points:** variable
+* **Points:** 80 (variable)
 
 ## Challenge
 

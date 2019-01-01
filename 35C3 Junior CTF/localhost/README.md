@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – localhost
 
 * **Category:** Web
-* **Points:** variable
+* **Points:** 81 (variable)
 
 ## Challenge
 

@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – Logged In
 
 * **Category:** Web
-* **Points:** variable
+* **Points:** 47 (variable)
 
 ## Challenge
 

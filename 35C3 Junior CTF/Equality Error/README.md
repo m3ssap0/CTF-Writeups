@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – Equality Error
 
 * **Category:** Misc
-* **Points:** variable
+* **Points:** 88 (variable)
 
 ## Challenge
 

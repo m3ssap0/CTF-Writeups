@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – ultra secret
 
 * **Category:** Misc
-* **Points:** variable
+* **Points:** 102 (variable)
 
 ## Challenge
 

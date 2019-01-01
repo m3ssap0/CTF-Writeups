@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – DB Secret
 
 * **Category:** Web
-* **Points:** variable
+* **Points:** 89 (variable)
 
 ## Challenge
 

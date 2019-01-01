@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – poet
 
 * **Category:** Pwn
-* **Points:** variable
+* **Points:** 44 (variable)
 
 ## Challenge
 

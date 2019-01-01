@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – Wee R Leet
 
 * **Category:** Misc
-* **Points:** variable
+* **Points:** 75 (variable)
 
 ## Challenge
 

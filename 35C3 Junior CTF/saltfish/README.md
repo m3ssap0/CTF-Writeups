@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – saltfish
 
 * **Category:** Web
-* **Points:** variable
+* **Points:** 62 (variable)
 
 ## Challenge
 

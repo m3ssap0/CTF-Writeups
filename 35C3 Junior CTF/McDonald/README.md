@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – McDonald
 
 * **Category:** Web
-* **Points:** variable
+* **Points:** 44 (variable)
 
 ## Challenge
 

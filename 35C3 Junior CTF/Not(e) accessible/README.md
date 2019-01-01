@@ -1,7 +1,7 @@
 # 35C3 Junior CTF – Not(e) accessible
 
 * **Category:** Web
-* **Points:** variable
+* **Points:** 55 (variable)
 
 ## Challenge
 
