@@ -1,4 +1,4 @@
-# 35C3 Junior CTF – Equality Error
+# 35C3 Junior CTF – Conversion Error
 
 * **Category:** Misc
 * **Points:** 87 (variable)
