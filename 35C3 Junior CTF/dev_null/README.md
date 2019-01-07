@@ -63,7 +63,7 @@ Unfortunately the execution is completely "blind", because no output is returned
 
 Furthermore, the `runwee` method, which executes the passed *Wee* script, contains a timeout (i.e. 5 secs, that you will discover after few analysis).
 
-You have to find a creative way to read that variable. The only way to exfiltrate data is via a *side-channel attack based on timing*, using a check that allows to "guess" the complete string one char at a time, i.e. something like *blind SQL injection* attacks.
+A creative way to exfiltrate data is via a *side-channel attack based on timing*, using a check that allows to "guess" the complete string one char at a time, i.e. something like *blind SQL injection* attacks.
 
 Analyzing the documentation you could discover two useful methods:
 * `charAt`;
