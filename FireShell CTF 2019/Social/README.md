@@ -1,4 +1,4 @@
-# FireShell CTF – Social
+# FireShell CTF 2019 – Social
 
 * **Category:** recon
 * **Points:** 60

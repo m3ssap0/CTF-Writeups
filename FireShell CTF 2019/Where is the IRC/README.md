@@ -1,4 +1,4 @@
-# FireShell CTF – Where is the IRC?
+# FireShell CTF 2019 – Where is the IRC?
 
 * **Category:** recon
 * **Points:** 60

@@ -1,4 +1,4 @@
-# FireShell CTF – Welcome
+# FireShell CTF 2019 – Welcome
 
 * **Category:** recon
 * **Points:** 60
