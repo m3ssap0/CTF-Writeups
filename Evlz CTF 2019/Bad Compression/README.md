@@ -13,7 +13,7 @@
 
 For this challenge a [compression script](Bad_Compression.py) is given.
 
-It also contains the output of the script launched on the *content of flag* (i.e. inside of `evlz{}ctf`): `100001000100110000000100`, and the SHA-256 of the complete flag: `e67753ef818688790288702b0592a46c390b695a732e1b9fec47a14e2f6f25ae`.
+It also contains the output of the script launched on the *content of the flag* (i.e. inside of `evlz{}ctf`): `100001000100110000000100`, and the SHA-256 of the complete flag: `e67753ef818688790288702b0592a46c390b695a732e1b9fec47a14e2f6f25ae`.
 
 Basically, you have to reverse the algorithm.
 
