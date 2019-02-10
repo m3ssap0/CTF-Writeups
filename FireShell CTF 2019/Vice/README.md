@@ -66,7 +66,7 @@ if(isset($_GET["gg"])) {
 }
 ```
 
-The flag is probably stored into `config.php` file, hence it must be printed via the **curl** execution.
+The flag is probably stored into `config.php` file, hence it must be printed via the *curl* execution.
 
 To perform this, the `doit` method must be executed. That method is invoked into `__destruct()` function if present in the `$method` attribute of the destructed object.
 
@@ -122,9 +122,9 @@ class SHITS{
 print serialize(new SHITS);
 ```
 
-At this point, another check present in the script must be bypassed. The secondo checks is referred to the file extension; in particular, the extension `.php` will be blocked.
+At this point, another check present in the script must be bypassed. The second checks is referred to the file extension; in particular, the extension `.php` will be blocked.
 
-Luckily, the check is performed via `strpos` and there is a well-known strange behavior, based on which double URL-encoded chars are not considered by `strpos` but are considered valid by **curl** ([https://bugs.php.net/bug.php?id=76671&edit=1](https://bugs.php.net/bug.php?id=76671&edit=1)). So it is sufficient to replace the `.` char with `%252e`.
+Luckily, the check is performed via `strpos` and there is a well-known strange behavior, based on which double URL-encoded chars are not considered by `strpos` but are considered valid by *curl* ([https://bugs.php.net/bug.php?id=76671&edit=1](https://bugs.php.net/bug.php?id=76671&edit=1)). So it is sufficient to replace the `.` char with `%252e`.
 
 ```php
 class SHITS{
