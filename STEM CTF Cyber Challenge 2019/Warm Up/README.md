@@ -34,7 +34,7 @@ gpg:                using RSA key 587735E31F0B06751ACD0D53CDE38825F2FFFCB4
 gpg: Can't check signature: No public key
 ```
 
-The `flag.html.enc` file is salted and encrypted with OpenSSl.
+The `flag.html.enc` file is salted and encrypted with OpenSSL.
 
 ```
 $ binwalk flag.html.enc
