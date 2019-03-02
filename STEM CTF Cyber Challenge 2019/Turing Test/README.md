@@ -24,7 +24,7 @@ After few attepts you will discover all the answers:
 * Text field - *Favorite Olympic Event* - Marathon
 * Text field - *2 + 2 - 3 = ?* - 1
 * Checkbox - *Is it a leap year?* - checked
-* Checkbox - *I agree Security Questions are Bad.* - Checked
+* Checkbox - *I agree Security Questions are Bad.* - checked
 
 The flag is the following.
 

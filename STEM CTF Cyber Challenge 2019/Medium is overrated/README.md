@@ -19,7 +19,7 @@ The script will recreate the `index.php` file of the previous challenge and anot
 
 Analyzing the history situation with `bzr log` and some `bzr diff`, you can discover that files were modified several times. Maybe one of these revisions will contain the flag.
 
-After some analysis you can discover that changes on `index.php` are the ones really important. The initial script can be modified in order to discover all important differencies on `index.php`.
+After some analysis you can discover that changes on `index.php` are the ones really important. The initial script can be modified in order to discover all important differences on `index.php`.
 
 ```bash
 #!/bin/bash
@@ -100,7 +100,7 @@ while true; do
 done
 ```
 
-Two differencies can be identified.
+Two differences can be identified.
 
 ```
 $ bzr diff -r154..155

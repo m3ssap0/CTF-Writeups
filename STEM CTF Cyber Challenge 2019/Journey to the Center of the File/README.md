@@ -7,7 +7,7 @@
 
 > W(e( (h(a(v(e( (t(o( (g(o( (d(e(e(p(e(r)))))))))))))))))))
 > 
-> download
+> [download](flag)
 
 ## Solution
 
