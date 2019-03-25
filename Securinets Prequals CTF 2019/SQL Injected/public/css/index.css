@@ -1,0 +1,33 @@
+body {
+    background: #eaeaea !important;
+}
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* text-align: center; */
+    box-shadow: 1px 1px 5px 1px gray;
+    background: white;
+    height: 80vh;
+    margin-top: 50px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.post-btn {
+    display: block !important;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.post-search input {
+    display: inline !important;
+}
+
+.results-count {
+    margin-top: 20px;
+}

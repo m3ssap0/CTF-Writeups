@@ -269,7 +269,7 @@ Inside the output, you will find the flag into an environment variable.
                                         ["HTTP_HOST"]=>
                                         string(14) "127.0.0.1:8081"
                                         ["HTTP_X_FORWARDED_FOR"]=>
-                                        string(12) "2.233.111.60"
+                                        string(12) "x.x.x.x"
                                         ["HTTP_X_FORWARDED_PROTO"]=>
                                         string(5) "https"
                                         ["HTTP_X_FORWARDED_HOST"]=>
