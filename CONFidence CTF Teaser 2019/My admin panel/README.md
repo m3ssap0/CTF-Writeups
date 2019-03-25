@@ -63,7 +63,7 @@ I CAN EVEN GIVE YOU A HINT XD 0006464640640064000646464640006400640640646400
 
 The hint is obtained by the following snippet.
 
-```
+```php
     for ($i = 0; i < strlen(MD5('xDdddddd')); i++) {
         echo(ord(MD5($cfg_pass)[$i]) & 0xC0);
     }
@@ -75,7 +75,7 @@ In that snippet, an AND operation is performed between the ASCII value of each c
 
 So, the problem could be located in a *type juggling* in this comparison:
 
-```
+```php
 $session_data['hash'] != strtoupper(MD5($cfg_pass))
 ```
 
