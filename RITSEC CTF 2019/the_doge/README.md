@@ -13,7 +13,7 @@
 
 The challenge gives you an [image](the_doge.jpg). 
 
-[the_doge.jpg](the_doge.jpg)
+![the_doge.jpg](the_doge.jpg)
 
 The text says that you have to *feed the doge a **treat** to get the hidden message*, so probably something is hidden inside the image with *treat* used like a passphrase.
 
