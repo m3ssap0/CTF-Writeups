@@ -19,7 +19,7 @@ Connecting to [http://ctfchallenges.ritsec.club:3000/](http://ctfchallenges.rits
 This page is only for authentication with our api, located at port 4000!
 ```
 
-Connecting to []() will give the following message.
+Connecting to [http://ctfchallenges.ritsec.club:4000/](http://ctfchallenges.ritsec.club:4000/) will give the following message.
 
 ```
 API Documentation
@@ -120,7 +120,7 @@ ETag: W/"1a-0ieoISNU3KaboLL5dBc9VysAH3I"
 {"reason":"Not an admin!"}
 ```
 
-Unfortunately, you don't have enough privileges. Furthermore, trying to alter the JWT changing the `alg` to `none`, changing the `type` to `admin` and removing the sign will not work.
+Unfortunately, you don't have enough privileges. Furthermore, trying to alter the JWT changing the `alg` to `none`, changing the `type` to `admin` and removing the signature will not work.
 
 Analyzing the HTML source of the API documentation page, you can discover an interesting comment.
 
@@ -155,7 +155,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 eyJuYW1lIjoibTNzc2FwMCIsInR5cGUiOiJhZG1pbiIsImlhdCI6MTU3Mzg5Nzc3OH0
 ```
 
-The sign can be performed with following operations.
+The signature can be performed with following operations.
 
 ```
 root@m3ss4p0:~# openssl x509 -in signing.pem -pubkey -noout > public_key.pem
