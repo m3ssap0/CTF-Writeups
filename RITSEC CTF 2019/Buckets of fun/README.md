@@ -11,7 +11,7 @@
 
 ## Solution
 
-The title of the challenge is an hint to insecure/public AWS S3 buckets, so [S3Scanner](https://github.com/sa7mon/S3Scanner) can be used to easily dump the content.
+The title of the challenge is a hint to insecure/public AWS S3 buckets, so [S3Scanner](https://github.com/sa7mon/S3Scanner) can be used to easily dump the content.
 
 ```
 root@m3ss4p0:~# git clone https://github.com/sa7mon/S3Scanner.git
