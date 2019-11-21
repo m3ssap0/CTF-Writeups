@@ -47,7 +47,7 @@ Connecting to the web site, an interesting HTML comment can be discovered.
 
 So you can discover the existence of two more pages:
 * [http://ctfchallenges.ritsec.club:8003/upload.php](http://ctfchallenges.ritsec.club:8003/upload.php)
-* [http://ctfchallenges.ritsec.club:8003/photos.php]http://ctfchallenges.ritsec.club:8003/photos.php
+* [http://ctfchallenges.ritsec.club:8003/photos.php](http://ctfchallenges.ritsec.club:8003/photos.php)
 
 Basically the web application allows the upload of an image that will be displayed into a gallery. The upload functionality is vulnerable because it doesn't check the content of the image and it doesn't convert it in order to remove unwanted content.
 
