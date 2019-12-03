@@ -6,7 +6,9 @@
 ## Challenge
 
 > Do you like math? Click here.
+>
 > Author: @andreossido
+>
 > http://10.255.0.1:8011/
 
 ## Solution
@@ -91,4 +93,4 @@ Crafting both cookies accordingly and accessing to the `list` functionality will
 ptm{L4t3x_1nj3ct10n_1s_c00l}
 ```
 
-*Note*: According to the challenge creator, the technique to leak `PHPSESSID` and false `FLAG` was not the intended one.
+**Note**: According to the challenge creator, the technique to leak `PHPSESSID` and false `FLAG` was not the *intended* one.
