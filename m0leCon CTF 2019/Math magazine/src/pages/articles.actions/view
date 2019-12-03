@@ -1,0 +1,22 @@
+<?php
+	$f = new ArticleFactory(USER);
+
+	$id = @$_GET['id'] ?? null;
+	$articles = $f->getArticles();
+
+	if ($id === null || !array_key_exists(intval($id), $articles)) {
+		require_once(PAGES_DIRECTORY.'404');
+	} else {
+		$id = intval($id);
+		$article = $articles[$id];
+		echo '<h1>'.htmlentities($article->getTitle()).'</h1>';
+		echo file_get_contents($f->getLatexByArticleIndex($id).'.tex');
+	}
+?>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>

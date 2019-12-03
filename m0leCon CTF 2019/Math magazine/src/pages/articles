@@ -1,0 +1,16 @@
+<?php
+	$actions = [
+		'list',
+		'view',
+		'add'
+	];
+
+	$action = @$_GET['a'] ?? $actions[0];
+	if(!in_array($action, $actions))
+		$action = 'list';
+
+	ob_start();
+	require_once(PAGES_ARTICLE_ACTION_DIRECTORY.$action);
+	$output = ob_get_clean();
+	echo $output;
+?>
