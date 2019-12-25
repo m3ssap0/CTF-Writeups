@@ -160,7 +160,7 @@ Secret Stuff:
 <br>
 <a href="/wtf.mp4">wtf.mp4</a>
 ```
-It will contains three files:
+It will contain three files:
 * [098c533dc5420628a9f51c1911198c4c.jpg](098c533dc5420628a9f51c1911198c4c.jpg);
 * [2.jpg](2.jpg);
 * [wtf.mp4](wtf.mp4).

