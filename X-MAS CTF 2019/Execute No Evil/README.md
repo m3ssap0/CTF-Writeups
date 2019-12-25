@@ -10,6 +10,7 @@
 > Huh, so hear no evil, see no evil, ... execute no evil?
 >
 > Remote server: http://challs.xmas.htsp.ro:11002
+>
 > Author: Milkdrop
 
 ## Solution
@@ -96,12 +97,15 @@ Even if the `$name` variable is concatenated inside a MySQL comment, the code is
 From [https://www.owasp.org/index.php/Testing_for_MySQL](https://www.owasp.org/index.php/Testing_for_MySQL):
 
 > Fingerprinting MySQL
+>
 > Of course, the first thing to know is if there's MySQL DBMS as a back end database. MySQL server has a feature that is used to let other DBMS ignore a clause in MySQL dialect. When a comment block ('/**/') contains an exclamation mark ('/*! sql here*/') it is interpreted by MySQL, and is considered as a normal comment block by other DBMS as explained in MySQL manual.
 > 
 > Example:
+>
 > 1 /*! and 1=0 */
 > 
 > Result Expected:
+>
 > If MySQL is present, the clause inside the comment block will be interpreted.
 
 The base to perform SQL injection is the following.

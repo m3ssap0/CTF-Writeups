@@ -10,8 +10,11 @@
 > If you are indeed able to vote more than 250 times, you will be congratulated as an active Lapland citizen and receive a prize worthy of this title.
 > 
 > Remote server: http://challs.xmas.htsp.ro:11001
+>
 > Author: Milkdrop
+>
 > Note: The ideas you post are public and logged, posting any X-MAS flags may > disqualify your team
+>
 > Note 2: You must send all 250 votes from the same PHP session, otherwise the server will not be able to send you the flag.
 
 ## Solution
@@ -101,7 +104,7 @@ function vote (id, upvote) {
 
 The voting procedure requires that a sort of challenge is returned by the server after the first request, i.e. `xhttp.open ("GET", "/vote.php?g=1", false);`, and then the client has to find a string which produces a MD5 hash with the first characters equals to the challenge. The challenge is different each time.
 
-To reduce the time of finding correct strings, a smart voter can be implemented, using a cache and storing all failed attempts. With this trick, after ~14M of requests all strings will be found inside the cache, reducing the time of generation.
+To reduce the time of finding correct strings, a smart voter can be implemented, using a cache and storing all failed attempts. With this trick, after ~14M  requests all strings will be found inside the cache, reducing the time of generation.
 
 The exploit is the following.
 

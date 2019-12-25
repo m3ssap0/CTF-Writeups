@@ -9,7 +9,9 @@
 > Translation: Come and visit our hat factory!
 > 
 > Files: [server.py](server.py)
+>
 > Remote server: http://challs.xmas.htsp.ro:11005
+>
 > Author: Milkdrop
 
 ## Solution
@@ -277,7 +279,7 @@ Usually, something like the following can be used to access classes loaded into 
 
 But we have some restrictions, as you can see in the following blacklist used into `/makehat` endpoint.
 
-```
+```python
 blacklist = ["config", "self", "request", "[", "]", '"', "_", "+", " ", "join", "%", "%25"]
 ```
 
