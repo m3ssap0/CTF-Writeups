@@ -15,7 +15,7 @@
 
 Opening a challenge modal window, you can find a strange response HTTP header returned when `https://advent2019.overthewire.org/static/fonts/roboto/Roboto-Bold.woff2` file is downloaded.
 
-![Easter Egg 2.png](Easter Egg 2.png)
+![EasterEgg2.png](EasterEgg2.png)
 
 ```
 x-easteregg2: ==QftRHdz8VZydmZuNzXhJ3MxcGMltnSHJkT
