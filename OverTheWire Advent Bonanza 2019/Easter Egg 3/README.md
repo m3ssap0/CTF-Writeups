@@ -5,7 +5,7 @@
 
 ## Challenge
 
-> Easter Egg 2
+> Easter Egg 3
 >
 > Service: https://twitter.com/OverTheWireCTF
 > 
@@ -13,7 +13,7 @@
 
 ## Solution
 
-An image was posted on Twitter.
+An image was [posted on Twitter](https://twitter.com/OverTheWireCTF/status/1204370177237954565).
 
 ![ELZazLnWsAAwWEn.jpg](ELZazLnWsAAwWEn.jpg)
 
