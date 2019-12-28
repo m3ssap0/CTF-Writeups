@@ -1,4 +1,4 @@
-# Inferno CTF – Wannabe Rapper
+# Inferno CTF 2019 – Wannabe Rapper
 
 * **Category:** Reversing
 * **Points:** 197
