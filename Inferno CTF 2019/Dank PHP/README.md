@@ -1,6 +1,6 @@
 # Inferno CTF 2019 – Dank PHP
 
-* **Category:** web
+* **Category:** Web
 * **Points:** 375
 
 ## Challenge
@@ -135,7 +135,7 @@ The second check to bypass is the following.
 
 This is quite hard, because there are two strong constraints.
 
-Usually, `preg_match` [can be bypassed using arrays data type](https://bugs.php.net/bug.php?id=69274), but in this case I was not able to use the content of the array into the `eval` instruction.
+Usually, `preg_match` [can be bypassed using arrays](https://bugs.php.net/bug.php?id=69274), but in this case I was not able to use the content of the array into the `eval` instruction.
 
 Googling around, I learned about a technique to bypass WAF using non-alfanumeric input, performing logic operations on non-alfanumeric chars using non-alfanumeric variables.
 

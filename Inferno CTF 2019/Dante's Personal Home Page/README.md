@@ -1,6 +1,6 @@
 # Inferno CTF 2019 – Dante's Personal Home Page
 
-* **Category:** web
+* **Category:** Web
 * **Points:** 180
 
 ## Challenge
