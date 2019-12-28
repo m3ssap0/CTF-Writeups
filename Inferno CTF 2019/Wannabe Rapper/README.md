@@ -29,7 +29,7 @@ Analyzing the [`MainActivity$1.smali`](wannabe_rapper/MainActivity$1.smali), you
 const-string v1, "m&m"
 ```
 
-So the username should be `m&m`.
+So the username could be `m&m`.
 
 You can find another interesting snippet into [`MainActivity.smali`](wannabe_rapper/MainActivity.smali), in the constructor.
 
