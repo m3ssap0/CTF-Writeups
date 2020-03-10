@@ -123,7 +123,7 @@ Invalid ProductId: 0
 
 The passed parameter is reflected to the response, so if the system is vulnerable to XXE you can read files on the server.
 
-So you can craft a payload like the following.
+You can craft a payload like the following.
 
 ```
 POST /location HTTP/1.1
