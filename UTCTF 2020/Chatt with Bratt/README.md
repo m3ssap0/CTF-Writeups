@@ -14,7 +14,7 @@
 The website simulates a chat with a VIP. Analyzing the HTML, some interesting JavaScript code can be found.
 
 ```html
-    <script>
+	<script>
 		function addMessage(content, name) {
 			const messageBody = document.getElementById('message-body');
 			const card = document.createElement("div");
@@ -87,7 +87,7 @@ The website simulates a chat with a VIP. Analyzing the HTML, some interesting Ja
 	</script>
 ```
 
-Peforming some tests, you can discover that chat functionality is vulnerable to HTML tag injection, because the message sent to the server is than reflected into the web page and it is not escaped. An XSS can be performed using the `img` tag and the `onerror` attribute.
+Peforming some tests, you can discover that chat functionality is vulnerable to HTML tag injection, because the message sent to the server is then reflected into the web page and it is not escaped. An XSS can be performed using the `img` tag and the `onerror` attribute.
 
 Analyzing cookies, an interesting cookie called `secret` can be found, but it is set to `none` value.
 
