@@ -38,7 +38,7 @@ The website is a game where you have to click on the circle and don't click on t
 <script src="main.js"></script>
     </body>
 </html>
-``
+```
 
 The [frontend source](main.js) is heavily obfuscated, but the challenge gives you the [backend source](index.js).
 
