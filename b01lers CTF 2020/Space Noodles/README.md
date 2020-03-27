@@ -196,7 +196,7 @@ Date: Sat, 14 Mar 2020 10:56:58 GMT
    PNG
 ```
 
-[!two.png](two.png)
+![two.png](two.png)
 
 The image contains the string `up_on_noodles_`, that is a part of the flag.
 
@@ -226,7 +226,7 @@ Date: Sat, 14 Mar 2020 11:12:50 GMT
    PNG
 ```
 
-[!square.png](square.png)
+![square.png](square.png)
 
 The solution is the following.
 
