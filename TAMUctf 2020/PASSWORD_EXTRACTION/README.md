@@ -1,7 +1,7 @@
 # TAMUctf 2020 – PASSWORD_EXTRACTION
 
 * **Category:** web
-* **Points:** 262
+* **Points:** 50
 
 ## Challenge
 
