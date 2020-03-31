@@ -1,7 +1,7 @@
 # TAMUctf 2020 – MENTALMATH
 
 * **Category:** web
-* **Points:** points
+* **Points:** 262
 
 ## Challenge
 
@@ -15,7 +15,7 @@
 
 Analyzing the web page source an interesting comment can be found.
 
-```
+```html
 <!doctype html>
 
 <html lang="en">
