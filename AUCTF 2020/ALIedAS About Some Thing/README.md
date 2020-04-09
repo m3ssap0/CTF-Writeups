@@ -57,7 +57,7 @@ by tr4cefl0w
 [+] Profile found: https://www.skyscanner.fr/?previousCultureSource=GEO_LOCATION&redirectedFrom=www.skyscanner.net
 ```
 
-The PasteBin account (`https://pastebin.com/u/youllneverfindmese`) contains an interesting untitled file: `https://pastebin.com/qMRYqzYB`.
+The Pastebin account (`https://pastebin.com/u/youllneverfindmese`) contains an interesting untitled file: `https://pastebin.com/qMRYqzYB`.
 
 The content of the file is the following.
 

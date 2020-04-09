@@ -47,7 +47,7 @@ END_TIME: Sun Apr  5 11:33:49 2020
 DOWNLOADED: 870 - FOUND: 5
 ```
 
-Analyzing into `cgi-bin/` directory will let you to discover an interesting endpoint.
+Analyzing `cgi-bin/` directory will let you to discover an interesting endpoint.
 
 ```
 user@machine:~$ sudo dirb http://challenges.auctf.com:30024/cgi-bin/ -w
@@ -180,7 +180,7 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 
 The content of the file is the hexadecimal representation of a GZip archive (i.e. signature `1f8b08`).
 
-This [file](flag.gz) can be re-created with an hexadecimal editor. Opening the archive you will find the `flag.txt` file with the flag.
+This [file](flag.gz) can be re-created with an hexadecimal editor. If you open the archive you will find the `flag.txt` file with the flag.
 
 ```
 auctf{$h311_Sh0K_m3_z@ddY}

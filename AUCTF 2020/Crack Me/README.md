@@ -13,8 +13,6 @@
 
 ## Solution
 
-The solution.
-
 This is an MD5 hash. Using [*CrackStation*](https://crackstation.net/) you will get the flag.
 
 ```
