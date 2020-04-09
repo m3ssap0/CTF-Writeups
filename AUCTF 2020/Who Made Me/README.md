@@ -13,8 +13,7 @@
 
 ## Solution
 
-The official Github profile of *Auburn University Ethical Hacking Club
-* is `https://github.com/auehc`.
+The official Github profile of *Auburn University Ethical Hacking Club* is `https://github.com/auehc`.
 
 One of the members is `https://github.com/vincentchu37` and he has an interesting repository: `https://github.com/vincentchu37/AUCTF-2020`.
 
@@ -24,7 +23,7 @@ Analyzing the commits, one regarding the flag can be found (`https://github.com/
 
 ![screenshot-1.png](screenshot-1.png)
 
-Lookin further, the commit with the flag can be found (`https://github.com/chharles/AUCTF-2020/commit/56721948f12e3a76a5316c62ad2bcf47e8119926`).
+Looking further, the commit with the flag can be found (`https://github.com/chharles/AUCTF-2020/commit/56721948f12e3a76a5316c62ad2bcf47e8119926`).
 
 ![screenshot-2.png](screenshot-2.png)
 
