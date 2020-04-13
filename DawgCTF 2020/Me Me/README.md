@@ -29,9 +29,9 @@ It seems that the first char of each line has been removed. The first and the la
 All data lines except the last (if the data length was not divisible by 45), have 45 bytes of encoded data (60 characters after encoding). Therefore, the vast majority of length values is 'M', (32 + 45 = ASCII code 77 or 'M').
 ```
 
-So the first char of every line except the last one is `M`.
+So the first char of every line, except the last one, is `M`.
 
-The first char of the last line is `E`, because that line has 8 chars less than 60 chars lines (i.e. 52 chars), so the correct letter to use is 8 letters before `M`: the `E`.
+The first char of the last data line is `E`, because that line has 8 chars less than 60 chars lines (i.e. 52 chars), so the correct letter to use is 8 letters before `M`: the `E`.
 
 You have now the [correct original file](enc.corrected) and you decode it ([online](http://uuencode.online-domain-tools.com/)).
 

