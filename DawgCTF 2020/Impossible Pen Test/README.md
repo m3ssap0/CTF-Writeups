@@ -272,7 +272,7 @@ DawgCTF{GuillermoMcCoy}
 
 ### Solution
 
-Royce Joyce is the CTO and he has two e-mails (https://theinternet.ctf.umbccd.io/SyncedIn/DogeCTF%7BRoyceJoyce%7D.html).
+Royce Joyce is the CTO and he has two e-mails (`https://theinternet.ctf.umbccd.io/SyncedIn/DogeCTF%7BRoyceJoyce%7D.html`).
 
 ```
 roycejoyce@wemail.net
