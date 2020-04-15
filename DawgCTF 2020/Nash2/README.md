@@ -13,7 +13,7 @@
 
 ## Solution
 
-You have to print the `flag.txt` file but your shell can't use spaces and you can't redirect with `<` (that was the unintended solution of the original challenge *Nash*).
+You have to print the `flag.txt` file, but your shell can't use spaces and you can't redirect with `<` (that was the unintended solution of the original challenge *Nash*).
 
 There is a well-known bash jail escape tecnique which uses the command `more`, that is available on the system. To use it, you have to find something long enough to be passed into `more`.
 

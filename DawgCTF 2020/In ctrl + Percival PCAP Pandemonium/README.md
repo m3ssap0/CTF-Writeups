@@ -37,7 +37,7 @@ Payload size: 1100 bytes
 Final size of war file: 1100 bytes
 ```
 
-The original [public exploit](https://www.exploit-db.com/exploits/42544) was not working correctly due to errors with authentication. Considering that it was referred to version 6.5, I patched it to accept two more input parameters:
+The original [public exploit](https://www.exploit-db.com/exploits/42544) was not working correctly due to errors with authentication. So I patched it to accept two more input parameters:
 * authentication cookies which you can get after login on the web application;
 * `wbs` token which you can grab analyzing HTTP traffic to the web application.
 
