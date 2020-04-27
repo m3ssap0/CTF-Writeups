@@ -6,6 +6,7 @@
 ## Challenge
 
 > Let's go on an adventure!
+> 
 > The solution is in there... somewhere.
 > 
 > (#adventure-revisited on discord)
@@ -13,6 +14,7 @@
 > Creator: Jess
 > 
 > Hint! You might want to read that Story Starter again.
+> 
 > hint.7z ad100f3cfbc3a5a51951de2ff88773da
 
 ## Solution
