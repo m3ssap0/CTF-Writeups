@@ -1,7 +1,7 @@
 # Houseplant CTF 2020 – Fire/place
 
 * **Category:** web
-* **Points:** points
+* **Points:** 1783
 
 ## Challenge
 
@@ -17,7 +17,7 @@
 
 The challenge gives you an [HTML file](fire-place[0].html) which connects to a Firestore environment.
 
-```
+```html
 <body>
     <div class="column" style="float: left; width:1000;">
         <canvas id="myCanvas" style="width: 1000px; height: 650px;"></canvas>
