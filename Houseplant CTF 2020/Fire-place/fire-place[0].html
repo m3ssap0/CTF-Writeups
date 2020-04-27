@@ -1,0 +1,107 @@
+<body>
+    <div class="column" style="float: left; width:1000;">
+        <canvas id="myCanvas" style="width: 1000px; height: 650px;"></canvas>
+    </div>
+    <div class="column" style="float: right; width: 300;">
+        <br>
+        <h1 style = "font-family:georgia,garamond,serif;font-size:20px;">Welcome to fire/place!</h1>
+        <br>
+        <script src="https://rawgit.com/EastDesire/jscolor/master/jscolor.js"></script>
+        <input class="jscolor" id=colour value="f0f0f0">
+        <br><br>
+        X:<input class="text" id=xpos value=0>
+        <br>
+        Y:<input class="text" id=ypos value=0>
+        <br><br>
+        X offset:  <input class="text" id=xoff value=-1>
+        <br>Y offset:  <input class="text" id=yoff value=-8>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+    <script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyABDa1gqWZhFy-3OQ664XplH65TNVXfm6E",
+        authDomain: "jade-adventure-274923.firebaseapp.com",
+        projectId: "jade-adventure-274923",
+        storageBucket: "jade-adventure-274923.appspot.com",
+        messagingSenderId: "891770626123",
+        appId: "1:891770626123:web:70414772b58fceaa88edce",
+        measurementId: "G-GZPE7S1WJ0"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    const db = firebase.firestore()
+    </script>
+</body>
+
+<script>
+    var PIXELARRAY=new Array()
+
+    function hexToRgb(hex) {
+        var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+        return result ? {
+            r: parseInt(result[1], 16),
+            g: parseInt(result[2], 16),
+            b: parseInt(result[3], 16)
+        } : null;
+    }
+
+    function sendTHEPIXEL() {
+        var loc = (parseInt(document.getElementById("ypos").value*100))+parseInt(document.getElementById("xpos").value)
+        converted=hexToRgb(document.getElementById("colour").value)
+        finstring="rgb("+converted.r+","+converted.g+","+converted.b+")"
+        PIXELARRAY[loc]=finstring
+        var docdata= {
+            dat:PIXELARRAY
+        };
+        db.collection("board").doc("data").update(docdata)
+    }
+
+    function findScreenCoords(mouseEvent)  {
+        var xpos;
+        var ypos;
+        if (mouseEvent) {
+            //FireFox
+            xpos = mouseEvent.screenX;
+            ypos = mouseEvent.screenY;
+        } else {
+            //IE
+            xpos = window.event.screenX;
+            ypos = window.event.screenY;
+        }
+        if (Math.floor(xpos/10) >= 101) and ((Math.floor(ypos/10)-7) <= 66); {
+            document.getElementById("xpos").value=(Math.floor(xpos/10)+parseInt(document.getElementById("xoff").value))
+            document.getElementById("ypos").value=(Math.floor(ypos/10)+parseInt(document.getElementById("yoff").value))
+            sendTHEPIXEL()
+        }
+    }
+
+    function drawCanvas(pixelData){
+        var c = document.getElementById("myCanvas");
+        c.width = 1000;
+        c.height = 650;
+        var ctx = c.getContext("2d");
+        
+        x=0
+        y=0
+        for (var i=0; i<6500; i++) {
+            ctx.fillStyle = pixelData[i];
+            ctx.fillRect(x*10, y*10, 10, 10);
+            x++
+            if (x==100) {
+                x=0
+                y++
+            }
+        }        
+    }
+</script>
+<script>
+    document.addEventListener("click", findScreenCoords);
+    db.collection("board").doc("data")
+    .onSnapshot(function(doc) {
+        drawCanvas(doc.data().dat);
+        PIXELARRAY=doc.data().dat;
+    });
+</script>
