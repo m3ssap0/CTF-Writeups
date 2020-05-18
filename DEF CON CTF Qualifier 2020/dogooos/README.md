@@ -1,4 +1,4 @@
-# DEF CON CTF Qualifier 2020 – Challenge Name
+# DEF CON CTF Qualifier 2020 – dogooos
 
 * **Category:** web
 * **Points:** 151
