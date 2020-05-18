@@ -98,7 +98,7 @@ From this data you can spot user credentials:
 
 So now you can authenticate into the system and **you can create new users**.
 
-During the authentication, an interesting behavior can be spot. The `login` method ([dogooo_comments.py](dogooo_comments.py)) uses the *f-Strings* functionality of Python 3, [which is very powerful formatting syntax](https://realpython.com/python-f-strings/) and can be used to call methods.
+During the authentication, an interesting behavior can be spot. The `login` method ([dogooo_comments.py](dogooo_comments.py)) uses the *f-Strings* functionality of Python 3, [which is a very powerful formatting syntax](https://realpython.com/python-f-strings/) and can be used to call methods.
 
 ```python
 @app.route("/dogooo/login", methods=["GET", "POST"])
