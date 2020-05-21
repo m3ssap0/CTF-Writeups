@@ -17,11 +17,13 @@
 > 
 > [loaddata.py](loaddata.py) 0b57622ec86e02c0d8726538161dffb1e13ba1a18b7538354c12f762e4947c23
 
+[Official solution here.](https://github.com/o-o-overflow/dc2020q-dogooos-public)
+
 ## Solution
 
 The website allows you to upload and comment pictures of dogs.
 
-There is an interesting endpoint at `/dogooo/runcmd` that contains a remote shell functionality, but it can't be used due to an `HTTP 502 Bad Gateway` error.
+There is an interesting endpoint at `/dogooo/runcmd` that contains a remote shell functionality, but it can't be used due to an `HTTP 502 Bad Gateway` error caused by the presence of `seccomp` filter, which prevents `execve`.
 
 Several functionalities can be used only by authenticated users (i.e. `@login_required` annotations). There is an endpoint that can be used to create new users (i.e. `/dogooo/user/create`), but even this functionality requires the login.
 
@@ -123,7 +125,7 @@ The interesting line is the following.
 return redirect(request.host_url[:-1] + f"/dogooo/show?message=Welcom+back+{user.get_user_info()}")
 ```
 
-The `get_user_info` method of the `User` class into [loaddata.py](loaddata.py) uses the *f-Strings* functionality on the `username` field.
+The `get_user_info` method of the `User` class into [loaddata.py](loaddata.py) uses the `f()` method, instead of the `f""` one, on the `username` field; this method is the legacy one of *f-Strings* Python 2 implementation. The library implemented the *f-Strings* functionality by using an `eval`.
 
 ```python
 from fstring import fstring as f
