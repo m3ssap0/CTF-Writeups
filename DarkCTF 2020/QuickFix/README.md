@@ -17,6 +17,8 @@ Furthermore, files have a name with the following format: `flag_<value-1>_<value
 
 You can write a [script](quickfix.py) to automate the image fix and the composition.
 
+***DISCLAIMER:*** *Please consider that the source code is bugged, but the final image allows you to read the flag.*
+
 ```python
 import time
 import datetime
