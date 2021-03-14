@@ -21,7 +21,7 @@ Uploading a DOCX file, you can notice that some information are shown. One of th
 
 DOCX files are archives of files where XML documents are present.
 
-It is sufficiento to create a DOCX and to alter the [`test.docx\docProps\app.xml`](app.xml) file, where the number of pages is stored, like the following.
+It is sufficient to create a DOCX and to alter the [`test.docx\docProps\app.xml`](app.xml) file, where the number of pages is stored, like the following.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
