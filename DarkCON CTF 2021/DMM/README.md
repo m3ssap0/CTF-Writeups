@@ -27,7 +27,7 @@ The *SSTI* in the URL is a hint to *Server-Side Template Injection* vulnerabilit
 ohhhhhhhhhhhh noooooo0ooooo !! :) [
 ```
 
-The same happen for chars: `%`, `[`, `]`, `"`, `+`, `_` and for words: `self`, `request`, `join`, `config`.
+The same happens for chars: `%`, `[`, `]`, `"`, `+`, `_` and for words: `self`, `request`, `join`, `config`.
 
 So the template engine is probably *Jinja2*, but you have to face some restrictions.
 

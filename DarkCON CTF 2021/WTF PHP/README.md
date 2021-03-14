@@ -55,7 +55,7 @@ Unfortunately the RCE doesn't work, but the text says:
 
 > maybe some info will help you xD
 
-So you can try to understand what's happening using `phpinfo`.
+So you can try to understand what's happening using `phpinfo()`.
 
 ```php
 <?php
