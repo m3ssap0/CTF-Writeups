@@ -1,0 +1,32 @@
+version: '3.2'
+services:
+  main:
+    build: './apache/'
+    depends_on:
+      - php
+    networks:
+      - main
+    volumes:
+      - ./public_html/:/var/www/html/
+      - ./config/apache/:/usr/local/apache2/conf/ctf/
+  proxy:
+      build: './apache/'
+      depends_on:
+        - php
+        - main
+      networks:
+        - main
+      ports:
+        - "80:80"
+      volumes:
+        - ./config/proxy/:/usr/local/apache2/conf/ctf/
+  php:
+    networks:
+      - main
+    build: ./php
+    volumes:
+      - ./uploads:/tmp/uploads
+      - ./public_html/:/var/www/html/
+      - ./config/php/php.ini:/usr/local/etc/php/php.ini
+networks:
+  main:
